@@ -1,0 +1,1 @@
+system_profiler SPHardwareDataType | awk '/Serial/ {print $4}' | tr '[A-Z]' '[X-ZB-S]' | tr 0-9 4-90-3 | base64`
